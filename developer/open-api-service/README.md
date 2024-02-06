@@ -19,6 +19,7 @@ To use the FIXeS Open API Service, please request an `API_KEY` from us by sendin
 When you obtain the API key, please add it to the request header with the `Authorization` format as follows:
 
 ```bash
-TBD
+curl --location 'http://open-api.fixes.world/v1/utils/flow-price' \
+--header 'Authorization: Bearer YOUR_API_KEY'
 ```
 
