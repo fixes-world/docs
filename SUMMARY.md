@@ -40,3 +40,9 @@
     * [Estimate Fixes inscribing cost](developer/open-api-service/utilities/estimate-fixes-inscribing-cost.md)
     * [Get current $FLOW price](developer/open-api-service/utilities/get-current-usdflow-price.md)
   * [📃 Legal Disclaimer](developer/open-api-service/legal-disclaimer.md)
+
+## 🔗 LINKS
+
+* [Official Website](https://fixes.world/)
+* [X (Twitter)](https://x.com/fixesOnFlow/)
+* [Flowty Marketplace (for 𝔉rc20 SemiNFT)](https://www.flowty.io/collection/0xd2abb5dbf5e08666/FRC20SemiNFT)

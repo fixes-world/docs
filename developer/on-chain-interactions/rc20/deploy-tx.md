@@ -12,7 +12,7 @@ op=deploy,tick=fixes,max=1000000000.0,limit=1000.0,burnable=1
 
 #### Transaction parameters:
 
-<table><thead><tr><th width="116" align="center">Key</th><th width="108" data-type="checkbox">Required</th><th width="100" align="center">FType</th><th>Description</th></tr></thead><tbody><tr><td align="center">tick</td><td>true</td><td align="center">t.String</td><td>Ticker: identity of the 𝔉rc20 token</td></tr><tr><td align="center">max</td><td>true</td><td align="center">t.UFix64</td><td>Max supply: Set max supply of the 𝔉rc20 token</td></tr><tr><td align="center">limit</td><td>true</td><td align="center">t.UFix64</td><td>Mint limit: limit per inscription</td></tr><tr><td align="center">burnable</td><td>true</td><td align="center">t.Bool</td><td><p>Is this 𝔉rc20 a burnable nscription.</p><p>Recommended to set it as true.</p></td></tr></tbody></table>
+<table><thead><tr><th width="116" align="center">Key</th><th width="108" data-type="checkbox">Required</th><th width="100" align="center">FType</th><th>Description</th></tr></thead><tbody><tr><td align="center">tick</td><td>true</td><td align="center">t.String</td><td>Ticker: identity of the 𝔉rc20 token</td></tr><tr><td align="center">max</td><td>true</td><td align="center">t.UFix64</td><td>Max supply: Set max supply of the 𝔉rc20 token</td></tr><tr><td align="center">limit</td><td>true</td><td align="center">t.UFix64</td><td>Mint limit: limit per inscription</td></tr><tr><td align="center">burnable</td><td>true</td><td align="center">t.Bool</td><td><p>Is this 𝔉rc20 a burnable inscription.</p><p>Recommended to set it as true.</p></td></tr></tbody></table>
 
 #### Transaction code example:
 
