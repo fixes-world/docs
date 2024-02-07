@@ -17,7 +17,7 @@ Number of tokens returned, Up to 100
 Bearer YOUR\_API\_KEY
 {% endswagger-parameter %}
 
-{% swagger-response status="200: OK" description="List of TokenMeta" %}
+{% swagger-response status="200: OK" description="List of 𝔉rc20 TokenMeta" %}
 ```json
 {
   "list": [
