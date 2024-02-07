@@ -13,8 +13,8 @@ Bearer YOUR\_API\_KEY
 If including Flow Token Balance, "0" means false, "1" means true
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="address" %}
-the given address for querying address
+{% swagger-parameter in="path" name="address" required="true" %}
+the given address for querying
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="𝔉rc20 balances ("tick"="" means FlowToken)" %}

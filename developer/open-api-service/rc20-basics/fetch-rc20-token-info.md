@@ -9,7 +9,7 @@
 Bearer YOUR\_API\_KEY
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="tick" %}
+{% swagger-parameter required="true" in="path" name="tick" %}
 The ticker name of 𝔉rc20 Token
 {% endswagger-parameter %}
 
@@ -34,11 +34,15 @@ The ticker name of 𝔉rc20 Token
 ```
 {% endswagger-response %}
 
+{% swagger-response status="401: Unauthorized" description="Unauthorized" %}
+
+{% endswagger-response %}
+
 {% swagger-response status="400: Bad Request" description="Missing ticker" %}
 
 {% endswagger-response %}
 
-{% swagger-response status="401: Unauthorized" description="Unauthorized" %}
+{% swagger-response status="404: Not Found" description="Ticker not found" %}
 
 {% endswagger-response %}
 {% endswagger %}

@@ -1,6 +1,10 @@
-# Check 𝔉rc20 registered
+---
+description: Marketenabled
+---
 
-{% swagger method="get" path="/v1/frc20/:tick/check-registered" baseUrl="http://open-api.fixes.world" summary="Check if the 𝔉rc20 token has been registered" fullWidth="false" expanded="true" %}
+# Check 𝔉rc20 Market enabled
+
+{% swagger method="get" path="/v1/market/:tick/check-enabled" baseUrl="http://open-api.fixes.world" summary="Check if the 𝔉rc20 market has been enabled" fullWidth="false" expanded="true" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -17,7 +21,7 @@ The ticker name of 𝔉rc20 Token
 ```json
 {
     "tick": "flows",
-    "registered": true
+    "marketEnabled": true
 }
 ```
 {% endswagger-response %}

@@ -5,12 +5,12 @@
 
 {% endswagger-description %}
 
-{% swagger-parameter in="query" name="page" %}
+{% swagger-parameter in="query" name="page" type="Number" %}
 Start page, default 0
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="limit" %}
-Number of tokens returned, Up to 100
+{% swagger-parameter in="query" name="limit" type="Number" %}
+Number of results returned, Up to 100
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" name="Authorization" required="true" %}
