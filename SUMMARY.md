@@ -7,7 +7,7 @@
 * [Fixes Inscription](concepts/fixes-inscription.md)
 * [𝔉rc20 Indexer](concepts/rc20-indexer.md)
 
-## 👨💻 Developer
+## 👨‍💻 Developer
 
 * [On-chain Interactions](developer/on-chain-interactions/README.md)
   * [🔯 𝔉rc20](developer/on-chain-interactions/rc20/README.md)
