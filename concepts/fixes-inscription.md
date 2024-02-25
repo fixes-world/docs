@@ -38,7 +38,7 @@ Take the 𝔉rc20 Indexer as an example:
 * When the 𝔉rc20 token is burnable, 𝔉rc20 token holders can withdraw a certain amount of `$FLOW` from the Treasury Pool through the `burn` op corresponding to the burned amount.
 * When the 𝔉rc20 token is added to the liquidity pool, `$FLOW` in the Treasury Pool will also provide certain liquidity support.
 
-More details can be found in [rc20-indexer.md](rc20-indexer.md "mention").
+More details can be found in [rc20-fungible-tokens.md](rc20-fungible-tokens.md "mention").
 
 ## Can I use Fixes Inscription for my project?
 
