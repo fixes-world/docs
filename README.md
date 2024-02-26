@@ -4,6 +4,13 @@ FIXeS World is an executable inscription protocol on Flow blockchain.&#x20;
 
 It allows users to inscribe anything on the blockchain and also provides the 𝔉rc20 tokens.
 
+Currently, it provides the following features:
+
+* **Tokens ->** Deploy/Mint/Transfer/Burn **𝔉rc20** Tokens.
+* **Markets ->** Trading **𝔉rc20** Token, you can place a buy or sell order.
+* **Claims ->** Hold a specific Flow NFT and free to claim **𝔉rc20** Tokens.
+* **Staking ->** Stake specific **𝔉rc20** Token to share platform profits and multiple **𝔉rc20** token vestings.
+
 ## Concepts
 
 <table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="concepts/fixes-inscription.md">fixes-inscription.md</a></td><td>The concept of Fixes inscription</td></tr><tr><td><a href="concepts/rc20-fungible-tokens.md">rc20-fungible-tokens.md</a></td><td>The concept of 𝔉rc20 On-chain Indexer</td></tr></tbody></table>
