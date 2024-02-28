@@ -45,5 +45,4 @@
 
 * [Official Website](https://fixes.world/)
 * [X (Twitter)](https://x.com/fixesOnFlow/)
-* [Flowverse Marketplace (for 𝔉rc20 SemiNFT)](https://nft.flowverse.co/marketplace/FRC20SemiNFT)
-* [Flowty Marketplace (for 𝔉rc20 SemiNFT)](https://www.flowty.io/collection/0xd2abb5dbf5e08666/FRC20SemiNFT)
+* [Linktree](https://linktr.ee/fixes.world)
