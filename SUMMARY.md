@@ -44,5 +44,4 @@
 ## 🔗 LINKS
 
 * [Official Website](https://fixes.world/)
-* [X (Twitter)](https://x.com/fixesOnFlow/)
 * [Linktree](https://linktr.ee/fixes.world)
