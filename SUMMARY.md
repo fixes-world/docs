@@ -6,6 +6,7 @@
 
 * [Fixes Inscription](concepts/fixes-inscription.md)
 * [𝔉rc20 Fungible Tokens](concepts/rc20-fungible-tokens.md)
+* [FIXeS Lottery](concepts/fixes-lottery.md)
 
 ## 👨‍💻 Developer
 
