@@ -1,8 +1,8 @@
 ---
-description: 100% on-chain lottery on FIXeS World platform
+description: An 100% on-chain lottery system on FIXeS protocol
 ---
 
-# FIXeS Lottery
+# 🎟️ FIXeS Lottery
 
 > Inspired by [https://www.powerball.com/](https://www.powerball.com/)
 
