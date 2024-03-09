@@ -52,11 +52,13 @@ For on-chain randomness on Flow, please refer to: [https://flow.com/post/on-chai
 
 ### Winning rules
 
-<table><thead><tr><th width="137">PrizeRank</th><th width="223">Match Rule</th><th width="212">Prize</th><th>Service fee</th></tr></thead><tbody><tr><td>JACKPOT</td><td>5 White + 1 <mark style="color:red;">Red</mark></td><td><strong>Grant Prize</strong></td><td>16%</td></tr><tr><td>SECOND</td><td>5 White</td><td><mark style="color:green;"><strong>50000</strong></mark> x <strong>TicketPrice</strong></td><td>16%</td></tr><tr><td>THIRD</td><td>4 White + 1 <mark style="color:red;">Red</mark></td><td><mark style="color:green;"><strong>5000</strong></mark> x <strong>TicketPrice</strong></td><td>16%</td></tr><tr><td>FOURTH</td><td>4 White / 3 White + 1 <mark style="color:red;">Red</mark></td><td><mark style="color:green;"><strong>25</strong></mark> x <strong>TicketPrice</strong></td><td>0%</td></tr><tr><td>FIFTH</td><td>3 White / 2 White + 1 <mark style="color:red;">Red</mark></td><td><mark style="color:green;"><strong>4</strong></mark> x <strong>TicketPrice</strong></td><td>0%</td></tr><tr><td>SIXTH</td><td>1 White + 1 Red / 1 <mark style="color:red;">Red</mark></td><td><mark style="color:green;"><strong>2</strong></mark> x <strong>TicketPrice</strong></td><td>0%</td></tr></tbody></table>
+<table><thead><tr><th width="137">PrizeRank</th><th width="223">Match Rule</th><th width="212">Estimated Prize</th><th>Service fee</th></tr></thead><tbody><tr><td>JACKPOT</td><td>5 White + 1 <mark style="color:red;">Red</mark></td><td><strong>Grant Prize</strong></td><td>16%</td></tr><tr><td>SECOND</td><td>5 White</td><td><mark style="color:green;"><strong>50000</strong></mark> x <strong>TicketPrice</strong></td><td>16%</td></tr><tr><td>THIRD</td><td>4 White + 1 <mark style="color:red;">Red</mark></td><td><mark style="color:green;"><strong>5000</strong></mark> x <strong>TicketPrice</strong></td><td>16%</td></tr><tr><td>FOURTH</td><td>4 White / 3 White + 1 <mark style="color:red;">Red</mark></td><td><mark style="color:green;"><strong>25</strong></mark> x <strong>TicketPrice</strong></td><td>0%</td></tr><tr><td>FIFTH</td><td>3 White / 2 White + 1 <mark style="color:red;">Red</mark></td><td><mark style="color:green;"><strong>4</strong></mark> x <strong>TicketPrice</strong></td><td>0%</td></tr><tr><td>SIXTH</td><td>1 White + 1 Red / 1 <mark style="color:red;">Red</mark></td><td><mark style="color:green;"><strong>2</strong></mark> x <strong>TicketPrice</strong></td><td>0%</td></tr></tbody></table>
 
-The Prize of Jackpot, Second, and Third will be deducted by a certain Service Fee.
+* The **Grant Prize** is at least **50%** of the current epoch's prize pool.&#x20;
+* The remaining **50%** and the accumulated jackpot pool will be used to prioritize the payment of non-Jackpot prizes (Second \~ Sixth). The remaining prize money will all be included in the **Grant Prize**.
+* If the total prize pool is too small, non-Jackpot prizes will **decrease** dynamically based on the balance of the total prize pool.
+* The Prize of **Jackpot, Second, and Third** will be deducted by a certain Service Fee.
+* The Service Fee will be injected into the platform's Treasury Pool or Staking Pool.
+  1. For **$FLOW** Lottery, **8%** Service Fee will be deposit to **$FLOWS** Staking Pool reward strategy and **8%** Service Fee will be deposit to platform treasury.
+  2. For **𝔉rc20** Lottery, **16%** Service Fee will be deposit to **$FLOWS** Staking Pool reward strategy.
 
-The Service Fee will be injected into the platform's Treasury Pool or Staking Pool.
-
-* For $FLOW Lottery, 8% Service Fee will be deposit to $FLOWS Staking Pool and 8% Service Fee will be deposit to platform treasury
-* For $𝔉rc20 Lottery, 16% Service Fee will be deposit to $FLOWS Staking Pool
