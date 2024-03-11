@@ -57,8 +57,8 @@ For on-chain randomness on Flow, please refer to: [https://flow.com/post/on-chai
 * The **Grant Prize** is at least **50%** of the current epoch's prize pool.&#x20;
 * The remaining **50%** and the accumulated jackpot pool will be used to prioritize the payment of non-Jackpot prizes (Second \~ Sixth). The remaining prize money will all be included in the **Grant Prize**.
 * If the total prize pool is too small, non-Jackpot prizes will decrease dynamically based on the balance of the total prize pool.
-* The Prize of **Jackpot, Second, and Third** will be deducted by a certain Service Fee.
-* The Service Fee will be injected into the platform's Treasury Pool or Staking Pool.
-  1. For **$FLOW** Lottery, <mark style="color:blue;">**8%**</mark> Service Fee will be deposit to **$flows** Staking Pool reward strategy and <mark style="color:blue;">**8%**</mark> Service Fee will be deposit to platform treasury.
-  2. For **𝔉rc20** Lottery, <mark style="color:blue;">**16%**</mark> Service Fee will be deposit to **$flows** Staking Pool reward strategy.
+* The Prize of **Jackpot, Second, and Third** will be deducted by a certain _Service Fee_.
+* The _Service Fee_ will be deposited into the platform's treasury pools.
+  1. For **$FLOW** Lottery, <mark style="color:blue;">**8%**</mark> will be deposited to **$flows** Staking Pool's reward strategy and <mark style="color:blue;">**8%**</mark> will be deposited to platform vault.
+  2. For **𝔉rc20** Lottery, <mark style="color:blue;">**16%**</mark> will be deposited to **$flows** Staking Pool's reward strategy.
 
