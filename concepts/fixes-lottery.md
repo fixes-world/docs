@@ -37,10 +37,8 @@ Currently, two prize pools are available.
 
 * ID: FIXES\_MINTING\_LOTTERY\_POOL
   * The Prize Token is **$FLOW**.
-  * Each ticket cost is **1 $FLOW (Ticket price + 4 mints of $fixes cost)** before **$fixes** are minted out, after $fixes minted out the ticket cost will be **0.1348 $FLOW.**
+  * Each ticket price is **0.1352 $FLOW (**And also you can take **1 $FLOW** to purchase **1 Ticket** and **mint 4000 $fixes** before **$fixes** are minted out**)**
   * The lottery will be drawn automatically every three days.
-  * Each purchase will receive 1 Ticket and mint 4000 **$fixes** at the same time.
-  * When $fixes are minted out, the ticket price will remove the cost of **$fixes** minting.
 * ID: FIXES\_BASIS\_LOTTERY\_POOL
   * The Prize Token is **$fixes**
   * Each ticket price is **2000 $fixes**
