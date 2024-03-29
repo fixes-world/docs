@@ -9,6 +9,7 @@ Currently, it provides the following features:
 * **Tokens ->** Deploy/Mint/Transfer/Burn **𝔉rc20** Tokens.
 * **Markets ->** Trading **𝔉rc20** Token, you can place a buy or sell order.
 * **Staking ->** Stake specific **𝔉rc20** Token to share platform profits and multiple **𝔉rc20** token vestings.
+* **Governance ->** Vote on proposals to participate in governance.
 * **Lottery ->** Purchase lottery tickets to get a chance to win **$FLOW** or  **𝔉rc20** Tokens.
 * **Claims ->** Hold a specific Flow NFT and free to claim **𝔉rc20** Tokens.
 
