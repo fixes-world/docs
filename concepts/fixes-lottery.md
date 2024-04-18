@@ -1,5 +1,5 @@
 ---
-description: An 100% on-chain lottery system on FIXeS protocol
+description: A 100% on-chain lottery system on FIXeS protocol
 ---
 
 # 🎟️ FIXeS Lottery

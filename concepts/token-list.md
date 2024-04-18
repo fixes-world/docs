@@ -1,5 +1,5 @@
 ---
-description: An 100% On-chain Permissionless Fungible Token List on Flow Blockchain
+description: A 100% On-chain Permissionless Fungible Token List on Flow Blockchain
 ---
 
 # 📔 Token List

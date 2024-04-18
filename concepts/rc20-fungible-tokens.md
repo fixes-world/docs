@@ -4,7 +4,7 @@ description: >-
   indexer and maintainer.
 ---
 
-# 𝔉rc20 Indexer
+# 👻 𝔉rc20 Fungible Tokens
 
 FRC20Indexer is an on-chain Indexer based on the FIXeS inscription protocol, which is used to parse and utilize 𝔉rc20 tokens recorded in FIXeS inscription.
 

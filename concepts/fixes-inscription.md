@@ -2,7 +2,7 @@
 description: Fixes - the inscription contract of the FIXeS protocol.
 ---
 
-# Fixes Inscription
+# 🔡 Fixes Inscription
 
 {% hint style="info" %}
 The data structure of Fixes inscription is referenced from [Ordinals](https://docs.ordinals.com/inscriptions.html#fields).
