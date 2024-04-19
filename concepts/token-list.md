@@ -25,10 +25,10 @@ And this service also provides an API endpoint to obtain the token list json.
 #### **Query**
 
 <table><thead><tr><th width="135">Name</th><th width="107">Type</th><th width="109">Default</th><th>Description</th></tr></thead><tbody><tr><td><code>filter</code></td><td>Number</td><td>0</td><td><pre><code>0 - All
-1 - Reviewed by Reviewer(Not supported yet)
-2 - Managed by Reviewer(Not supported yet)
-3 - Verified by Reviewer(Not supported yet)
-4 - Featured by Reviewer(Not supported yet)
+1 - Reviewed by Reviewer
+2 - Managed by Reviewer
+3 - Verified by Reviewer
+4 - Featured by Reviewer
 </code></pre></td></tr><tr><td><code>page</code></td><td>Number</td><td>undefined</td><td>If set, use Pagination; otherwise, retrieve all.</td></tr><tr><td><code>limit</code></td><td>Number</td><td>undefined</td><td>If set, use Pagination; otherwise, retrieve all.</td></tr></tbody></table>
 
 #### **Response**
