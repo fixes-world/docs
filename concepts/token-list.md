@@ -10,13 +10,19 @@ And this service also provides an API endpoint to obtain the token list json.
 
 ## API Endpoint
 
+#### **Mainnet**
+
 <mark style="color:green;">`GET`</mark> _https://token-list.fixes.world/api/token-list\[/:reviewer]\[?filter=]\[\&page=]\[\&limit=]_
 
-**Parameter**
+#### **Testnet**
+
+<mark style="color:green;">`GET`</mark> _https://testnet-token-list.fixes.world/api/token-list\[/:reviewer]\[?filter=]\[\&page=]\[\&limit=]_
+
+#### **Parameter**
 
 <table><thead><tr><th width="137">Name</th><th width="105">Type</th><th width="107">Default</th><th>Description</th></tr></thead><tbody><tr><td><code>reviewer</code></td><td>Address</td><td>undefined</td><td>When no Reviewer is set, the default list will be returned. If a reviewer is set, the data customized by the reviewer will be returned.</td></tr></tbody></table>
 
-**Query**
+#### **Query**
 
 <table><thead><tr><th width="135">Name</th><th width="107">Type</th><th width="109">Default</th><th>Description</th></tr></thead><tbody><tr><td><code>filter</code></td><td>Number</td><td>0</td><td><pre><code>0 - All
 1 - Reviewed by Reviewer(Not supported yet)
@@ -25,7 +31,7 @@ And this service also provides an API endpoint to obtain the token list json.
 4 - Featured by Reviewer(Not supported yet)
 </code></pre></td></tr><tr><td><code>page</code></td><td>Number</td><td>undefined</td><td>If set, use Pagination; otherwise, retrieve all.</td></tr><tr><td><code>limit</code></td><td>Number</td><td>undefined</td><td>If set, use Pagination; otherwise, retrieve all.</td></tr></tbody></table>
 
-**Response**
+#### **Response**
 
 {% tabs %}
 {% tab title="200" %}
