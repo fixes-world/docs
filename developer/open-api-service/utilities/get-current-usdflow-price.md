@@ -1,23 +1,25 @@
 # Get current $FLOW price
 
-{% swagger method="get" path="/v1/utils/estimate-cost?text=text-to-inscribe" baseUrl="http://open-api.fixes.world" summary="Get current $FLOW price (In USD, using IncrementFi price oracle) " fullWidth="false" expanded="true" %}
-{% swagger-description %}
+## Get current $FLOW price (In USD, using IncrementFi price oracle)&#x20;
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `http://open-api.fixes.world/v1/utils/estimate-cost?text=text-to-inscribe`
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Bearer YOUR\_API\_KEY
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-response status="200: OK" description="price result" %}
+| Name                                            | Type   | Description           |
+| ----------------------------------------------- | ------ | --------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Bearer YOUR\_API\_KEY |
+
+{% tabs %}
+{% tab title="200: OK price result" %}
 ```json
 {
     "price": 0.73390062
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="401: Unauthorized" description="Unauthorized" %}
+{% tab title="401: Unauthorized Unauthorized" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

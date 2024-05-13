@@ -1,32 +1,36 @@
 # Check 𝔉rc20 registered
 
-{% swagger method="get" path="/v1/frc20/:tick/check-registered" baseUrl="http://open-api.fixes.world" summary="Check if the 𝔉rc20 token has been registered" fullWidth="false" expanded="true" %}
-{% swagger-description %}
+## Check if the 𝔉rc20 token has been registered
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `http://open-api.fixes.world/v1/frc20/:tick/check-registered`
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Bearer YOUR\_API\_KEY
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="tick" required="true" %}
-The ticker name of 𝔉rc20 Token
-{% endswagger-parameter %}
+| Name                                   | Type   | Description                     |
+| -------------------------------------- | ------ | ------------------------------- |
+| tick<mark style="color:red;">\*</mark> | String | The ticker name of 𝔉rc20 Token |
 
-{% swagger-response status="200: OK" description="Example Response" %}
+#### Headers
+
+| Name                                            | Type   | Description           |
+| ----------------------------------------------- | ------ | --------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Bearer YOUR\_API\_KEY |
+
+{% tabs %}
+{% tab title="200: OK Example Response" %}
 ```json
 {
     "tick": "flows",
     "registered": true
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Missing ticker" %}
+{% tab title="401: Unauthorized Unauthorized" %}
 
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="401: Unauthorized" description="Unauthorized" %}
+{% tab title="400: Bad Request Missing ticker" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

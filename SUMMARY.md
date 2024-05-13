@@ -7,7 +7,9 @@
 * [🔡 Fixes Inscription](concepts/fixes-inscription.md)
 * [👻 𝔉rc20 Fungible Tokens](concepts/rc20-fungible-tokens.md)
 * [🎟️ FIXeS Lottery](concepts/fixes-lottery.md)
-* [📔 Token List](concepts/token-list.md)
+* [📔 Token List](concepts/token-list/README.md)
+  * [📘 Query TokenList](concepts/token-list/query-tokenlist.md)
+  * [📙 Query Reviewers](concepts/token-list/query-reviewers.md)
 
 ## 👨‍💻 Developer
 

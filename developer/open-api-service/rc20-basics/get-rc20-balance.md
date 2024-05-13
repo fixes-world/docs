@@ -1,36 +1,37 @@
 # Get 𝔉rc20 balance
 
-{% swagger method="get" path="/v1/address/:address/frc20/balances/:tick" baseUrl="http://open-api.fixes.world" summary="Get the 𝔉rc20 balance of the given address and given ticker name" fullWidth="false" expanded="true" %}
-{% swagger-description %}
+## Get the 𝔉rc20 balance of the given address and given ticker name
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `http://open-api.fixes.world/v1/address/:address/frc20/balances/:tick`
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Bearer YOUR\_API\_KEY
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="address" required="true" %}
-the given address for querying
-{% endswagger-parameter %}
+| Name                                      | Type   | Description                    |
+| ----------------------------------------- | ------ | ------------------------------ |
+| address<mark style="color:red;">\*</mark> | String | the given address for querying |
+| tick<mark style="color:red;">\*</mark>    | String | the given ticker name          |
 
-{% swagger-parameter in="path" name="tick" required="true" %}
-the given ticker name
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-response status="200: OK" description="𝔉rc20 balance" %}
+| Name                                            | Type   | Description           |
+| ----------------------------------------------- | ------ | --------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Bearer YOUR\_API\_KEY |
+
+{% tabs %}
+{% tab title="200: OK 𝔉rc20 balance" %}
 ```json
 {
     "tick": "flows",
     "amount": 10.0
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Invalid address / ticker name" %}
+{% tab title="401: Unauthorized Unauthorized" %}
 
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="401: Unauthorized" description="Unauthorized" %}
+{% tab title="400: Bad Request Invalid address / ticker name" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

@@ -1,23 +1,29 @@
 # Get 𝔉rc20 balances
 
-{% swagger method="get" path="/v1/address/:address/frc20/balances?includeFlow=1" baseUrl="http://open-api.fixes.world" summary="Get the 𝔉rc20 balances of the given address" fullWidth="false" expanded="true" %}
-{% swagger-description %}
+## Get the 𝔉rc20 balances of the given address
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `http://open-api.fixes.world/v1/address/:address/frc20/balances?includeFlow=1`
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Bearer YOUR\_API\_KEY
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="query" name="includeFlow" type="" %}
-If including Flow Token Balance, "0" means false, "1" means true
-{% endswagger-parameter %}
+| Name                                      | Type   | Description                    |
+| ----------------------------------------- | ------ | ------------------------------ |
+| address<mark style="color:red;">\*</mark> | String | the given address for querying |
 
-{% swagger-parameter in="path" name="address" required="true" %}
-the given address for querying
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-response status="200: OK" description="𝔉rc20 balances ("tick"="" means FlowToken)" %}
+| Name        | Type | Description                                                      |
+| ----------- | ---- | ---------------------------------------------------------------- |
+| includeFlow |      | If including Flow Token Balance, "0" means false, "1" means true |
+
+#### Headers
+
+| Name                                            | Type   | Description           |
+| ----------------------------------------------- | ------ | --------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Bearer YOUR\_API\_KEY |
+
+{% tabs %}
+{% tab title="200: OK 𝔉rc20 balances ("tick"="" means FlowToken)" %}
 ```json
 {
     "address": "0xa2de93114bae3e73",
@@ -37,13 +43,13 @@ the given address for querying
     ]
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Invalid address" %}
+{% tab title="401: Unauthorized Unauthorized" %}
 
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="401: Unauthorized" description="Unauthorized" %}
+{% tab title="400: Bad Request Invalid address" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

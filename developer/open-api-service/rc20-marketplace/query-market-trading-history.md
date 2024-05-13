@@ -1,31 +1,31 @@
 # Query Market Trading History
 
-{% swagger method="get" path="/v1/market/:tick/trading-activites?page=0&limit=25&datetime=" baseUrl="http://open-api.fixes.world" summary="Get the trading histories of the given 𝔉rc20 market" fullWidth="true" expanded="true" %}
-{% swagger-description %}
+## Get the trading histories of the given 𝔉rc20 market
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `http://open-api.fixes.world/v1/market/:tick/trading-activites?page=0&limit=25&datetime=`
 
-{% swagger-parameter type="Number" in="query" name="page" %}
-Start page, default 0
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter type="Number" in="query" name="limit" %}
-Number of results returned, Up to 100
-{% endswagger-parameter %}
+| Name | Type   | Description                     |
+| ---- | ------ | ------------------------------- |
+| tick | String | The ticker name of 𝔉rc20 Token |
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Bearer YOUR\_API\_KEY
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="datetime" type="Number" %}
-Timestamp(ms) of the date for the trading history
-{% endswagger-parameter %}
+| Name     | Type   | Description                                       |
+| -------- | ------ | ------------------------------------------------- |
+| page     | Number | Start page, default 0                             |
+| limit    | Number | Number of results returned, Up to 100             |
+| datetime | Number | Timestamp(ms) of the date for the trading history |
 
-{% swagger-parameter in="path" name="tick" %}
-The ticker name of 𝔉rc20 Token
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-response status="200: OK" description="List of 𝔉rc20 Trading Histories" %}
+| Name                                            | Type   | Description           |
+| ----------------------------------------------- | ------ | --------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Bearer YOUR\_API\_KEY |
+
+{% tabs %}
+{% tab title="200: OK List of 𝔉rc20 Trading Histories" %}
 ```json
 {
     "list": [
@@ -102,13 +102,13 @@ The ticker name of 𝔉rc20 Token
     ]
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Missing ticker name" %}
+{% tab title="401: Unauthorized Unauthorized" %}
 
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="401: Unauthorized" description="Unauthorized" %}
+{% tab title="400: Bad Request Missing ticker name" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

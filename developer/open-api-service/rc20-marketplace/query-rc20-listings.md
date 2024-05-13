@@ -1,35 +1,32 @@
 # Query 𝔉rc20 Listings
 
-{% swagger method="get" path="/v1/market/:tick/listings?type=0&limit=25&startPriceRank=&startPriceRankIdx=" baseUrl="http://open-api.fixes.world" summary="Get the list of 𝔉rc20 trading listings in the given market" fullWidth="true" expanded="true" %}
-{% swagger-description %}
+## Get the list of 𝔉rc20 trading listings in the given market
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `http://open-api.fixes.world/v1/market/:tick/listings?type=0&limit=25&startPriceRank=&startPriceRankIdx=`
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Bearer YOUR\_API\_KEY
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" required="true" name="tick" %}
-The ticker name of 𝔉rc20 Token
-{% endswagger-parameter %}
+| Name                                   | Type   | Description                     |
+| -------------------------------------- | ------ | ------------------------------- |
+| tick<mark style="color:red;">\*</mark> | String | The ticker name of 𝔉rc20 Token |
 
-{% swagger-parameter in="query" name="type" required="false" type=""0" | "1"" %}
-The listing type, "0" means orders for sale (You can display as buyNow), "1" means orders for purchase (You can display as sellNow), Default: “0”
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="limit" type="Number" %}
-Number of results returned, Up to 100
-{% endswagger-parameter %}
+| Name              | Type       | Description                                                                                                                                       |
+| ----------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| type              | "0" \| "1" | The listing type, "0" means orders for sale (You can display as buyNow), "1" means orders for purchase (You can display as sellNow), Default: “0” |
+| limit             | Number     | Number of results returned, Up to 100                                                                                                             |
+| startPriceRank    | Number     | Query start from the given **priceRank**, you can get the priceRank in the previous response. Default: undefined                                  |
+| startPriceRankIdx | Number     | Query start from the given **priceRankIdx**, you can get the rankedIdx in the previous response. Default: undefined                               |
 
-{% swagger-parameter in="query" name="startPriceRank" type="Number" %}
-Query start from the given **priceRank**, you can get the priceRank in the previous response. Default: undefined
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="query" name="startPriceRankIdx" type="Number" %}
-Query start from the given **priceRankIdx**, you can get the rankedIdx in the previous response. Default: undefined
-{% endswagger-parameter %}
+| Name                                            | Type   | Description           |
+| ----------------------------------------------- | ------ | --------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Bearer YOUR\_API\_KEY |
 
-{% swagger-response status="200: OK" description="List of Listing Orders" %}
+{% tabs %}
+{% tab title="200: OK List of Listing Orders" %}
 ```json
 {
     "list": [
@@ -108,13 +105,13 @@ Query start from the given **priceRankIdx**, you can get the rankedIdx in the pr
     ]
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Missing ticker name" %}
+{% tab title="401: Unauthorized Unauthorized" %}
 
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="401: Unauthorized" description="Unauthorized" %}
+{% tab title="400: Bad Request Missing ticker name" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
