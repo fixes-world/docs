@@ -51,4 +51,4 @@ Yes, you can find all contracts here
 | Network | Contract Address                                                                       |
 | ------- | -------------------------------------------------------------------------------------- |
 | Mainnet | [0xd2abb5dbf5e08666](https://contractbrowser.com/account/0xd2abb5dbf5e08666/contracts) |
-| Testnet | [0x74ad08095d92192a](https://contractbrowser.com/account/0x74ad08095d92192a/contracts) |
+| Testnet | [0x0e11cd1707e0843b](https://contractbrowser.com/account/0x0e11cd1707e0843b/contracts) |
