@@ -1,12 +1,13 @@
 # Table of contents
 
-* [💡 What is FIXeS?](README.md)
+* [💡 What is Fixes?](README.md)
 
 ## 📓 Concepts
 
 * [🔡 Fixes Inscription](concepts/fixes-inscription.md)
-* [👻 𝔉rc20 Tokens](concepts/rc20-tokens.md)
+* [💹 Fixes Coins](concepts/fixes-coins.md)
 * [🎟️ Lottery Game](concepts/lottery-game.md)
+* [👻 𝔉rc20s](concepts/rc20s.md)
 * [📔 Token List](concepts/token-list/README.md)
   * [📘 Query TokenList](concepts/token-list/query-tokenlist.md)
   * [📙 Query Reviewers](concepts/token-list/query-reviewers.md)

@@ -1,16 +1,16 @@
 ---
 description: >-
-  An experimental application protocol of FIXeS. The on-chain 𝔉rc20 token
+  An experimental application protocol of Fixes. The on-chain 𝔉rc20 token
   indexer and maintainer.
 ---
 
-# 👻 𝔉rc20 Fungible Tokens
+# 👻 𝔉rc20s
 
-FRC20Indexer is an on-chain Indexer based on the FIXeS inscription protocol, which is used to parse and utilize 𝔉rc20 tokens recorded in FIXeS inscription.
+FRC20Indexer is an on-chain Indexer based on the Fixes inscription protocol, which is used to parse and utilize 𝔉rc20 tokens recorded in the Fixes inscription.
 
 At the same time, it also provides support for the Treasury Pool for 𝔉rc20 Tokens, allowing the token value of frc20 to naturally increase during any operation regarding the token.
 
-## 𝔉rc20 Token Modes
+## 𝔉rc20 Types
 
 𝔉rc20 Indexer offers two types of tokens:
 
@@ -20,9 +20,8 @@ At the same time, it also provides support for the Treasury Pool for 𝔉rc20 To
 ## How will the 𝔉rc20 Indexer handle $FLOW in the inscription?
 
 * All operations performed on the 𝔉rc20 Indexer application Inscription will extract `$FLOW` to the corresponding Token Treasury Pool.
-  * `5%` of them will be extracted to the Platform Pool of 𝔉rc20 Indexer, which will provide certain support for FIXeS operational activities and cover development expenses.
+  * `5%` of them will be extracted and deposited into Platform Pool of 𝔉rc20 Indexer, which will provide certain support for FIXeS operational activities and cover development expenses.
 * For burnable 𝔉rc20 Tokens, when the holder applies an 𝔉rc20 inscription containing a `burn` operation, the corresponding `$FLOW` tokens can be extracted from the Treasury Pool.
-* When an 𝔉rc20 token is injected into the liquidity pool, the Treasury Pool will also help provide liquidity(:construction:Still WIP) .
 
 ## 𝔉rc20 Pools
 
