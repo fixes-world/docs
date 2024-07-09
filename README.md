@@ -1,10 +1,10 @@
 # 💡 What is Fixes?
 
-FIXeS World is a programable token universe on Flow blockchain.&#x20;
+Fixes World is a programable token universe on Flow blockchain.&#x20;
 
 It provides multiple fungible token issuance, trading, staking, and governance services. It is driven by the inscription mechanism to enable underlying programmable features:
 
-* **Coins ->** Create/Trade for all Fixes coins.
+* **Coins ->** Create/Manage/Trade for all the Fixes coins.
 * **Lottery ->** Purchase lottery tickets to get a chance to win **$FLOW** or  **𝔉rc20** Tokens.
 * **𝔉rc20s ->** Deploy/Mint/Transfer/Burn **𝔉rc20** Tokens.
 * **Markets ->** Trading **𝔉rc20** Token, you can place a buy or sell order.
