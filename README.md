@@ -13,7 +13,7 @@ It provides multiple fungible token issuance, trading, staking, and governance s
 
 ## Concepts
 
-<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="concepts/fixes-inscription.md">fixes-inscription.md</a></td><td>The concept of Fixes inscription</td></tr><tr><td><a href="concepts/fixes-coins.md">fixes-coins.md</a></td><td>The concept of Fixes Coins</td></tr><tr><td><a href="concepts/lottery-game.md">lottery-game.md</a></td><td>The rules of Fixes Lottery Game</td></tr><tr><td><a href="concepts/rc20s.md">rc20s.md</a></td><td>The concept of 𝔉rc20 On-chain Indexer</td></tr></tbody></table>
+<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="concepts/fixes-inscription.md">fixes-inscription.md</a></td><td>The concept of Fixes inscription</td></tr><tr><td><a href="concepts/fixes-coins/">fixes-coins</a></td><td>The concept of Fixes Coins</td></tr><tr><td><a href="concepts/lottery-game.md">lottery-game.md</a></td><td>The rules of Fixes Lottery Game</td></tr><tr><td><a href="concepts/rc20s.md">rc20s.md</a></td><td>The concept of 𝔉rc20 On-chain Indexer</td></tr></tbody></table>
 
 ## Developer
 

@@ -5,7 +5,8 @@
 ## 📓 Concepts
 
 * [🔡 Fixes Inscription](concepts/fixes-inscription.md)
-* [💹 Fixes Coins](concepts/fixes-coins.md)
+* [💹 Fixes Coins](concepts/fixes-coins/README.md)
+  * [Guide 1: How to Launch a new Coin?](concepts/fixes-coins/guide-1-how-to-launch-a-new-coin.md)
 * [🎟️ Lottery Game](concepts/lottery-game.md)
 * [👻 𝔉rc20s](concepts/rc20s.md)
 * [📔 Token List](concepts/token-list/README.md)

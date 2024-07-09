@@ -46,7 +46,7 @@ More details can be found in [rc20s.md](rc20s.md "mention").
   * **30%** to the Coins' contract address (If Tradable pool is activatd, It will be deposited into the $FLOW Vault of the Tradable Pool.)
   * **30%** to the platform contact address.
 
-More details can be found in [fixes-coins.md](fixes-coins.md "mention")
+More details can be found in [fixes-coins](fixes-coins/ "mention")
 
 ## Can I use Fixes Inscription for my project?
 
