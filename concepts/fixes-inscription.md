@@ -1,5 +1,5 @@
 ---
-description: Fixes - the inscription contract of the FIXeS protocol.
+description: Fixes - the inscription contract of the Fixes World
 ---
 
 # 🔡 Fixes Inscription

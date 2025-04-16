@@ -1,5 +1,5 @@
 ---
-description: A 100% on-chain lottery system on Fixes World
+description: A 100% on-chain lottery system in Fixes World
 ---
 
 # 🎟️ Lottery Game
