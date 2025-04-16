@@ -1,8 +1,8 @@
 ---
-description: A 100% on-chain lottery system on FIXeS protocol
+description: A 100% on-chain lottery system on Fixes World
 ---
 
-# 🎟️ FIXeS Lottery
+# 🎟️ Lottery Game
 
 > Inspired by [https://www.powerball.com/](https://www.powerball.com/)
 
@@ -37,7 +37,7 @@ Currently, two prize pools are available.
 
 * ID: FIXES\_MINTING\_LOTTERY\_POOL
   * The Prize Token is **$FLOW**.
-  * Each ticket price is **0.1352 $FLOW (**And also you can take **1 $FLOW** to purchase **1 Ticket** and **mint 4000 $fixes** before **$fixes** are minted out**)**
+  * Each ticket price is **0.1352 $FLOW (**&#x41;nd also you can take **1 $FLOW** to purchase **1 Ticket** and **mint 4000 $fixes** before **$fixes** are minted ou&#x74;**)**
   * The lottery will be drawn automatically every three days.
 * ID: FIXES\_BASIS\_LOTTERY\_POOL
   * The Prize Token is **$fixes**
